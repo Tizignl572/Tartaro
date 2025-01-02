@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tartaro</title>
+    <link rel="icon" href="tarta.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 1em;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            max-height: 50px;
+            margin-right: 10px;
+        }
+        .container {
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            margin: 2em;
+            padding: 2em;
+            max-width: 600px;
+            width: 100%;
+            position: relative;
+        }
+        .console-selection h2 {
+            color: #e0e0e0;
+            text-align: center;
+        }
+        .console-selection ul {
+            list-style: none;
+            padding: 0;
+        }
+        .console-selection ul li {
+            margin: 1em 0;
+            display: flex;
+            align-items: center;
+        }
+        .console-selection ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+            display: block;
+            padding: 0.5em;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+            flex-grow: 1;
+        }
+        .console-selection ul li a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .console-selection ul li i {
+            margin-right: 10px;
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+        .ad-container {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 160px;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .ad-left {
+            left: -180px;
+        }
+        .ad-right {
+            right: -180px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="tarta.png" alt="Logo">
+        <h1>Tartaro</h1>
+    </header>
+    <div class="container">
+        <div class="ad-container ad-left">
+            <!-- Código del anuncio de Google AdSense -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <section class="console-selection">
+            <h2>LISTA DE CONSOLAS</h2>
+            <ul>
+                <li><a href="switch.html"><i class="fas fa-gamepad"></i> Nintendo Switch</a></li>
+                <li><a href="snes.html"><i class="fas fa-gamepad"></i> Super Nintendo Entertainment System (SNES)</a></li>
+                <li><a href="genesis.html"><i class="fas fa-gamepad"></i> Sega Genesis</a></li>
+                <li><a href="gameboy.html"><i class="fas fa-gamepad"></i> Game Boy</a></li>
+            </ul>
+        </section>
+        <div class="ad-container ad-right">
+            <!-- Código del anuncio de Google AdSense -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+</body>
+</html>

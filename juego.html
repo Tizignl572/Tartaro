@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Juego</title>
+    <link rel="icon" href="tarta.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 1em;
+            width: 100%;
+            text-align: center;
+        }
+        .container {
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            margin: 2em;
+            padding: 2em;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .game-details {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .game-details h2 {
+            color: #e0e0e0;
+            text-align: center;
+        }
+        .game-details p {
+            color: #b0b0b0;
+            line-height: 1.6;
+        }
+        .game-illustration {
+            flex: 1;
+            text-align: center;
+        }
+        .game-illustration img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .download-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .download-link a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .download-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Detalles del Juego</h1>
+    </header>
+    <div class="container">
+        <section class="game-details">
+            <h2>Nombre del Juego</h2>
+            <p>Descripción del juego. Aquí puedes agregar detalles sobre la historia, jugabilidad, características, etc.</p>
+            <div class="download-link">
+                <a href="URL_DE_DESCARGA">Descargar</a>
+            </div>
+        </section>
+        <section class="game-illustration">
+            <img src="URL_DE_LA_API" alt="Ilustración del Juego">
+        </section>
+    </div>
+</body>
+</html>
